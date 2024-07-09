@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Kept the light background */
+}
+
+header {
+    background-color: #800080; /* Vibrant violet */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav button {
+    background-color: white;
+    border: none;
+    color: #800080; /* Violet for the button text */
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+nav button:hover {
+    background-color: #ddd; 
+}
+
+main {
+    padding: 20px;
+}
+
+section#lexique {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.definition {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.definition img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.definition h2 {
+    color: #333;
+}
+
+.definition p {
+    color: #666;
+}
